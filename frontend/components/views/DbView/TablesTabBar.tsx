@@ -33,7 +33,7 @@ const a11yProps = (index: any) => ({
   'aria-controls': `scrollable-auto-tabpanel-${index}`,
 });
 
-interface TablesTabBarProps {
+interface TablesTabBarProps { 
   tables: TableInfo[];
   selectTable: (table: TableInfo) => void;
   selectedTable: TableInfo | undefined;
