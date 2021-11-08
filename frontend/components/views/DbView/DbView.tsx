@@ -17,7 +17,7 @@ interface DbViewProps {
 }
 
 const StyledDummyButton = styled(Button)`
-  position: fixed;
+  position: absolute;
   top: 260px;
   right: ${sidebarShowButtonSize};
 `;
